@@ -1,0 +1,13 @@
+PODS:
+  - EZAudio/Core (1.1.2)
+  - TNImageSliderViewController (0.1.0)
+
+DEPENDENCIES:
+  - EZAudio/Core (~> 1.1.2)
+  - TNImageSliderViewController
+
+SPEC CHECKSUMS:
+  EZAudio: 01373de2b1257b77be1bf13753fb1c4ea8a9777e
+  TNImageSliderViewController: d09b55dab126ce24d183d874018f8542efd137e0
+
+COCOAPODS: 0.38.2

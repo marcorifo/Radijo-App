@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B22663A1BEFD73B00E70564 /* Startscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2266391BEFD73B00E70564 /* Startscreen.png */; };
+		7B606AFC1BBD777E0056153C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606AFB1BBD777E0056153C /* AppDelegate.swift */; };
+		7B606AFE1BBD777E0056153C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606AFD1BBD777E0056153C /* ViewController.swift */; };
+		7B606B011BBD777E0056153C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B606AFF1BBD777E0056153C /* Main.storyboard */; };
+		7B606B031BBD777E0056153C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B606B021BBD777E0056153C /* Images.xcassets */; };
+		7B606B061BBD777E0056153C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B606B041BBD777E0056153C /* LaunchScreen.xib */; };
+		7B606B121BBD777E0056153C /* Radijo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606B111BBD777E0056153C /* Radijo_AppTests.swift */; };
+		7B606B1C1BBD79640056153C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606B1B1BBD79640056153C /* DetailViewController.swift */; };
+		7B606B1E1BBD7D7B0056153C /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606B1D1BBD7D7B0056153C /* FeedModel.swift */; };
+		7B606B201BBD7D900056153C /* FeedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606B1F1BBD7D900056153C /* FeedHelper.swift */; };
+		7B606B221BBD7DBD0056153C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B606B211BBD7DBD0056153C /* Article.swift */; };
+		7BAAE7721BD7EDFF005B580C /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */; };
+		BF3EC4CE3E92DCE4FA6E6BC7 /* Pods_Radijo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB4465E87F88860A3CF1A79 /* Pods_Radijo_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B606B0C1BBD777E0056153C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B606AEE1BBD777E0056153C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B606AF51BBD777E0056153C;
+			remoteInfo = "Radijo App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00168778AC9239D322340C2D /* Pods-Radijo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radijo App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radijo App/Pods-Radijo App.release.xcconfig"; sourceTree = "<group>"; };
+		26601C5D0F39A4CCBEAC7839 /* Pods-Radijo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radijo App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Radijo App/Pods-Radijo App.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2266391BEFD73B00E70564 /* Startscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Startscreen.png; sourceTree = "<group>"; };
+		7B606AF61BBD777E0056153C /* Radijo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radijo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B606AFA1BBD777E0056153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B606AFB1BBD777E0056153C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B606AFD1BBD777E0056153C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B606B001BBD777E0056153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B606B021BBD777E0056153C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B606B051BBD777E0056153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B606B0B1BBD777E0056153C /* Radijo App.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radijo App.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B606B101BBD777E0056153C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B606B111BBD777E0056153C /* Radijo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radijo_AppTests.swift; sourceTree = "<group>"; };
+		7B606B1B1BBD79640056153C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7B606B1D1BBD7D7B0056153C /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		7B606B1F1BBD7D900056153C /* FeedHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedHelper.swift; sourceTree = "<group>"; };
+		7B606B211BBD7DBD0056153C /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		AFB4465E87F88860A3CF1A79 /* Pods_Radijo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radijo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B606AF31BBD777E0056153C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3EC4CE3E92DCE4FA6E6BC7 /* Pods_Radijo_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B606B081BBD777E0056153C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B606AED1BBD777E0056153C = {
+			isa = PBXGroup;
+			children = (
+				7B606AF81BBD777E0056153C /* Radijo App */,
+				7B606B0E1BBD777E0056153C /* Radijo AppTests */,
+				7B606AF71BBD777E0056153C /* Products */,
+				FEE7761BD95AD2DCF09C5262 /* Pods */,
+				85957877F300251F1B6AFAD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B606AF71BBD777E0056153C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B606AF61BBD777E0056153C /* Radijo App.app */,
+				7B606B0B1BBD777E0056153C /* Radijo App.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B606AF81BBD777E0056153C /* Radijo App */ = {
+			isa = PBXGroup;
+			children = (
+				7B606AFB1BBD777E0056153C /* AppDelegate.swift */,
+				7B606B1B1BBD79640056153C /* DetailViewController.swift */,
+				7B606B1F1BBD7D900056153C /* FeedHelper.swift */,
+				7B606AFD1BBD777E0056153C /* ViewController.swift */,
+				7B606B1D1BBD7D7B0056153C /* FeedModel.swift */,
+				7B606AFF1BBD777E0056153C /* Main.storyboard */,
+				7B606B021BBD777E0056153C /* Images.xcassets */,
+				7B606B041BBD777E0056153C /* LaunchScreen.xib */,
+				7B606AF91BBD777E0056153C /* Supporting Files */,
+				7B606B211BBD7DBD0056153C /* Article.swift */,
+				7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */,
+			);
+			path = "Radijo App";
+			sourceTree = "<group>";
+		};
+		7B606AF91BBD777E0056153C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B2266391BEFD73B00E70564 /* Startscreen.png */,
+				7B606AFA1BBD777E0056153C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B606B0E1BBD777E0056153C /* Radijo AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B606B111BBD777E0056153C /* Radijo_AppTests.swift */,
+				7B606B0F1BBD777E0056153C /* Supporting Files */,
+			);
+			path = "Radijo AppTests";
+			sourceTree = "<group>";
+		};
+		7B606B0F1BBD777E0056153C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B606B101BBD777E0056153C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85957877F300251F1B6AFAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB4465E87F88860A3CF1A79 /* Pods_Radijo_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE7761BD95AD2DCF09C5262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26601C5D0F39A4CCBEAC7839 /* Pods-Radijo App.debug.xcconfig */,
+				00168778AC9239D322340C2D /* Pods-Radijo App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B606AF51BBD777E0056153C /* Radijo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B606B151BBD777E0056153C /* Build configuration list for PBXNativeTarget "Radijo App" */;
+			buildPhases = (
+				98F06857EB643FE316C7437A /* Check Pods Manifest.lock */,
+				7B606AF21BBD777E0056153C /* Sources */,
+				7B606AF31BBD777E0056153C /* Frameworks */,
+				7B606AF41BBD777E0056153C /* Resources */,
+				DE3EE2952ACEF1996AA7257D /* Embed Pods Frameworks */,
+				A1588B382070413DE022B1AA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radijo App";
+			productName = "Radijo App";
+			productReference = 7B606AF61BBD777E0056153C /* Radijo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B606B0A1BBD777E0056153C /* Radijo AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B606B181BBD777E0056153C /* Build configuration list for PBXNativeTarget "Radijo AppTests" */;
+			buildPhases = (
+				7B606B071BBD777E0056153C /* Sources */,
+				7B606B081BBD777E0056153C /* Frameworks */,
+				7B606B091BBD777E0056153C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B606B0D1BBD777E0056153C /* PBXTargetDependency */,
+			);
+			name = "Radijo AppTests";
+			productName = "Radijo AppTests";
+			productReference = 7B606B0B1BBD777E0056153C /* Radijo App.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B606AEE1BBD777E0056153C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mark Reiff";
+				TargetAttributes = {
+					7B606AF51BBD777E0056153C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6DS4M9M59H;
+					};
+					7B606B0A1BBD777E0056153C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7B606AF51BBD777E0056153C;
+					};
+				};
+			};
+			buildConfigurationList = 7B606AF11BBD777E0056153C /* Build configuration list for PBXProject "Radijo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B606AED1BBD777E0056153C;
+			productRefGroup = 7B606AF71BBD777E0056153C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B606AF51BBD777E0056153C /* Radijo App */,
+				7B606B0A1BBD777E0056153C /* Radijo AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B606AF41BBD777E0056153C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B606B011BBD777E0056153C /* Main.storyboard in Resources */,
+				7B606B061BBD777E0056153C /* LaunchScreen.xib in Resources */,
+				7B22663A1BEFD73B00E70564 /* Startscreen.png in Resources */,
+				7B606B031BBD777E0056153C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B606B091BBD777E0056153C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98F06857EB643FE316C7437A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1588B382070413DE022B1AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Radijo App/Pods-Radijo App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3EE2952ACEF1996AA7257D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Radijo App/Pods-Radijo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B606AF21BBD777E0056153C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B606B1C1BBD79640056153C /* DetailViewController.swift in Sources */,
+				7B606AFE1BBD777E0056153C /* ViewController.swift in Sources */,
+				7B606B221BBD7DBD0056153C /* Article.swift in Sources */,
+				7B606B201BBD7D900056153C /* FeedHelper.swift in Sources */,
+				7B606AFC1BBD777E0056153C /* AppDelegate.swift in Sources */,
+				7BAAE7721BD7EDFF005B580C /* InfoDetailViewController.swift in Sources */,
+				7B606B1E1BBD7D7B0056153C /* FeedModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B606B071BBD777E0056153C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B606B121BBD777E0056153C /* Radijo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B606B0D1BBD777E0056153C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B606AF51BBD777E0056153C /* Radijo App */;
+			targetProxy = 7B606B0C1BBD777E0056153C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B606AFF1BBD777E0056153C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B606B001BBD777E0056153C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B606B041BBD777E0056153C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B606B051BBD777E0056153C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B606B131BBD777E0056153C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B606B141BBD777E0056153C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B606B161BBD777E0056153C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26601C5D0F39A4CCBEAC7839 /* Pods-Radijo App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Radijo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markreiff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Radijo App";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7B606B171BBD777E0056153C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00168778AC9239D322340C2D /* Pods-Radijo App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Radijo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markreiff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Radijo App";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7B606B191BBD777E0056153C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Radijo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markreiff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Radijo App";
+			};
+			name = Debug;
+		};
+		7B606B1A1BBD777E0056153C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Radijo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markreiff.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Radijo App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radijo App.app/Radijo App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B606AF11BBD777E0056153C /* Build configuration list for PBXProject "Radijo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B606B131BBD777E0056153C /* Debug */,
+				7B606B141BBD777E0056153C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B606B151BBD777E0056153C /* Build configuration list for PBXNativeTarget "Radijo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B606B161BBD777E0056153C /* Debug */,
+				7B606B171BBD777E0056153C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B606B181BBD777E0056153C /* Build configuration list for PBXNativeTarget "Radijo AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B606B191BBD777E0056153C /* Debug */,
+				7B606B1A1BBD777E0056153C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B606AEE1BBD777E0056153C /* Project object */;
+}

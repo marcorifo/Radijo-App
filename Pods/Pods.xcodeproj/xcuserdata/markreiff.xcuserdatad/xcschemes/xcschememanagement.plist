@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EZAudio.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Radijo App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TNImageSliderViewController-TNImageSliderViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TNImageSliderViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>441AA8562BB13A3DEB4E24079FEE3691</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7E88391937B58DFBA060651C713520FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6A3179F1E889479767CAC7BA9112C50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D23EAEE707E91E32CB03A05D3ABC515E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

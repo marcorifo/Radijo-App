@@ -1,0 +1,150 @@
+[
+
+	{
+		"radioName":"Red Light Radio",
+		"logoURL":"http://redlightradio.net/wp-content/themes/rl3/images/og_share_desktop.jpg",
+		"radioFeedURL":"http://www.michielgardner.nl:8000/redlightradio",
+        "backgroundURL":"http://www.maartenjungen.nl/wp-content/uploads/2012/02/Red-Light-1680x1050.jpg"
+	},
+
+	{
+		"radioName":"NTS Radio London",
+		"logoURL":"http://www.ntslive.co.uk/css/images/nts-fb-logo.jpg",
+        "radioFeedURL":"http://stream-relay-geo.ntslive.net/stream",
+        "backgroundURL":"http://assets.coolhunting.com/coolhunting/mt_asset_cache/assets_c/2012/09/nts-radio5-thumb-1000x1377-46119.jpg"
+	},
+ 
+    {
+        "radioName":"NTS Radio International",
+        "logoURL":"http://www.ntslive.co.uk/css/images/nts-fb-logo.jpg",
+        "radioFeedURL":"http://stream-relay-geo.ntslive.net/stream2",
+        "backgroundURL":"http://assets.coolhunting.com/coolhunting/mt_asset_cache/assets_c/2012/09/nts-radio5-thumb-1000x1377-46119.jpg"
+	},
+ 
+    {
+        "radioName":"Intergalactic FM Classix",
+        "logoURL":"https://intergalacticfm.com/images/AppIFM2-100.png",
+        "radioFeedURL":"http://radio.intergalacticfm.com/2",
+        "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+    {
+        "radioName":"Murdercapital FM",
+        "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+        "radioFeedURL":"http://radio.intergalacticfm.com/1",
+        "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	} ,
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	},
+ {
+ "radioName":"Murdercapital FM",
+ "logoURL":"https://intergalacticfm.com/images/AppIFM1-100.png",
+ "radioFeedURL":"http://radio.intergalacticfm.com/1",
+ "backgroundURL":"http://redlightradio.net/wp-content/uploads/2014/11/redshirt2-949x1024.jpg"
+	}
+]
