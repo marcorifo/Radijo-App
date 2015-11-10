@@ -174,7 +174,7 @@ class DetailViewController: UIViewController {
             self.playPauseButton.image = UIImage(named: "Play")
         }
         else {
-            radioPlayer.pause()
+            radioPlayer.play()
             self.playPauseButton.image = UIImage(named: "Pause")
         }
         
