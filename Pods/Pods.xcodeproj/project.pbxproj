@@ -7,238 +7,172 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0103B48123D41EC8D5F05E1AA98CD5AD /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D199A88CB40D2062F710A2DE6FD7418 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0880C1ABE170990DB150A503706B50B2 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCDA5F53F6C512A7AD81211EDC4F07 /* EZAudioPlayer.m */; };
-		0CCBCDA9ADF4BAFBB3B19F5C8DF8135C /* EZMicrophone.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C6CF4943762C6D5FF4A6F414B29D17 /* EZMicrophone.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDDCF15E5DD65B5C5A42596CE42F536 /* TNImageSliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBDFEC6123398A8C7BDFD0316E91A32 /* TNImageSliderCollectionViewCell.xib */; };
-		0E96A5E902DE68D2241E1D128C741BB9 /* EZAudioFloatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F95CAAE53F5430B2C306D93E063E22 /* EZAudioFloatConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11D79B1DB6BA362289E8FFDDB43A6229 /* TNImageSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D33ECE66989076913B559B84F231D0 /* TNImageSliderViewController.swift */; };
-		17ABE2BD8D3E71CEDE9E1546543A0168 /* TNImageSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB19A954491E47A65D2797B00CB508 /* TNImageSliderCollectionViewCell.swift */; };
-		17C5F676E368384C0DF9268D7D1B1D74 /* EZOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = EB09704C79C84B163F2FE4FF6479DC81 /* EZOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AA68F7652D19A063F9458C5EFAF91F7 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 524AE853E2283DBF51564DDCA39FDF5C /* EZAudio.m */; };
-		205BF7A54F5A20CC68698E86596A3D8A /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = D28975BB7233C6A68405D9C7C15A8307 /* EZAudioPlotGL.m */; };
-		2519D13DA253CB4270C6B9A1BFF82226 /* EZAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 605D0E50D2411B344D0390DF40B8EE18 /* EZAudioDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AFAC48A3E5EF89FD1FC454816ED5563 /* EZAudioFFT.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A01316EF9B8EBDC4337604F49B4CD25 /* EZAudioFFT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D45AA22E6F5D1AFAB39152B1039566A /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F1DD440E8E023DF7D21743BB6CD87 /* EZAudioDisplayLink.m */; };
-		3E05211B3F63F9B29711FDDFC1937DF2 /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = E243339D508E3495D2FDFBD24ADAF7D6 /* EZAudioFFT.m */; };
-		405506C7AC913D80B706E1BE105D8EB1 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC62ABF2C2FE299E07A61C54985C29F /* EZAudioFloatConverter.m */; };
-		42FC7B42C14E5C01D0AE6FE9E8871304 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 679331607E13A1E8C4741F744005A49B /* EZAudioDevice.m */; };
-		45A655FF0DD339E846C50F4AEBE5E4CF /* EZAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 13248428AB07C0D750A07C500FDFD631 /* EZAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FC1FE089AC0ADCDEEA399A7309E8A5D /* Pods-Radijo App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B865052192EA8F345371AE9536349F92 /* Pods-Radijo App-dummy.m */; };
-		50D4968E3771139177BF9E2D064E1EA1 /* TNImageSliderCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = BDBDFEC6123398A8C7BDFD0316E91A32 /* TNImageSliderCollectionViewCell.xib */; };
-		6616267560183FD91E33ADDB4F0576DC /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D8C6DA4523D21256921D3B08F88AD /* EZAudioFile.m */; };
-		6956CA7CA3B4C8E6365DD3C7E9993107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE2A76B7B46F4466F47BB3C3E67E281 /* Foundation.framework */; };
-		6B993D6DAEEB7DE67C890695DDFBE705 /* EZAudio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01208B9C876D07AAE222E11C2D8A26DE /* EZAudio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77F885FB2E70788898BC9926C49716E4 /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C61A7B90B0434E7452458F3599C7E5 /* EZPlot.m */; };
-		780D4D7CCC412F70234EC7DDBC68ED46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE2A76B7B46F4466F47BB3C3E67E281 /* Foundation.framework */; };
-		79CAEC4A7D54CF0F384C7A8AA7DB65FA /* EZAudioFloatData.h in Headers */ = {isa = PBXBuildFile; fileRef = 295C74FCD555C4D8E9E7E2BA37DE3EA3 /* EZAudioFloatData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C4EC5CED211715E188B149C93A898BF /* EZAudioDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AF80B76F19ECF179B405662DEFF492 /* EZAudioDisplayLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8787D5F78B565D64698DDD3514466A87 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = 61062A4AC74C14C0693BBF0DE9216494 /* EZAudioFloatData.m */; };
-		8987658B41876BE8A82A3CC7582FCBA6 /* EZAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = F267F91F315271E8D7263AD618B92D7A /* EZAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC38AB5C42DDEBEA973B76C6183709A /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8167422EB0359E1710A3B0A5756B502E /* TPCircularBuffer.c */; };
-		94527B8D119A404471F20159D01469FE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7258B7F91207D11D4198D151BE343148 /* Accelerate.framework */; };
-		A7E57B1A73289543C0C26B4E2C174BE6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823F9BBA4C949C840603B8166E033F5E /* AudioToolbox.framework */; };
-		A9B5025D4CE7597EBCF20268FAA56C58 /* TNImageSliderViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB82E70B1D40D0292CE2701A282D5A23 /* TNImageSliderViewController.bundle */; };
-		A9B98E9B71ECD62E0D0C7562FBB72F23 /* Pods-Radijo App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73931A350347DD4A324E7D76C3A7C928 /* Pods-Radijo App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA8B5FC6ECD3B6201B0139CA3B56382A /* EZAudioPlotGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C660CD7C14E7FE6E22C4B96E702DFF /* EZAudioPlotGL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABF390687444413F007279C9D3906BA0 /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3439D066BC3B941B88EC0250EFB86145 /* EZAudioPlot.m */; };
-		BA9B05B8DBB9BA0360A404222C1EB68A /* EZAudioUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EC07785C44D6208ADFFE0692928C0A3C /* EZAudioUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C337068028D658FE3C6C1EF7F8AA8502 /* EZAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82498690E3C04E6F6C14017CA1BE1C8 /* EZAudio-dummy.m */; };
-		C4A729577AE8EE6A7709E19816B91C30 /* TNImageSliderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4109B9C370A8AFE3C62D6960FA4287F1 /* TNImageSliderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF7C091A58CF73F189E18510026E23B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C1665DA416FAD0CA0FEA2618EB9E8 /* AVFoundation.framework */; };
-		CF972E0F80E8C9BD2EC94B0E1A276733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE2A76B7B46F4466F47BB3C3E67E281 /* Foundation.framework */; };
-		D0EF8773C4B78C22C7313D4FAD815172 /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 64786EE9849CE503FC4874B028F3EF5A /* EZMicrophone.m */; };
-		D14FA2ADE37584D6019D11AF5FF1C140 /* EZAudioPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F2160F0039E968BBF0994D5FE7B968 /* EZAudioPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7A48241A4D207A8DE3F970818D52A8F /* EZRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7177AD515C2BED09C23756B2ED271181 /* EZRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE4119B1807E9DB1C2FF7D48BDFD9D19 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B311EC2423059AEA2A9C5888FE011567 /* EZAudioUtilities.m */; };
-		DF3FBA89EAAD0882277413FC60E0D240 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB257438198E8407AD1FA8898C9C50C /* EZRecorder.m */; };
-		EA861A9E889B1D7C5EC8BAEDCAC3626E /* TNImageSliderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC00B6AC4ED016C74750946BB1513 /* TNImageSliderViewController-dummy.m */; };
-		EC93984A51034D07D8BB0E23CC8A8CE3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BABE9BBE8380EE8F3E8A3B9A2B63DA4 /* GLKit.framework */; };
-		EED3CC89E287B294314A6AE72445ED21 /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE05B8E22F56C0C99D49D7F38C09F6D /* EZOutput.m */; };
-		F35670A9FFE9CFFD0AF4AAB070D164C0 /* EZAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4C7E963C3FC09F6A515AE340213178 /* EZAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB67C2EFB376005718D4CFEE40624648 /* EZPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCBD38B35EA6D9D6068620A870B1B72 /* EZPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F9EB42F358F70422610E72BDE9EF2A /* Pods-Radijo App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B80918793B2F2A2E1076097483FCD /* Pods-Radijo App-dummy.m */; };
+		24A61291ABC04FE0336C1504FC508C57 /* TNImageSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B259ED330A8FEC2C5DCE3BAE313F95 /* TNImageSliderViewController.swift */; };
+		4A7219B0DB3947864AAC6F231F87B008 /* TNImageSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E61CA85C548EA4E0AE8A97A71EF87 /* TNImageSliderCollectionViewCell.swift */; };
+		4FB22A8F1E42DBDA1AF316448A8B4742 /* TNImageSliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAA3C1F0B6FB398F509D623397AA08E /* TNImageSliderCollectionViewCell.xib */; };
+		500609D3EA16D371C40FCF17D6330E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7D937656B00897DD5BC49BFEA577A039 /* TNImageSliderCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA3C1F0B6FB398F509D623397AA08E /* TNImageSliderCollectionViewCell.xib */; };
+		80C6AA186869E0CC1B1FF4C67B1DAE4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8579190B35A81D70E5A0DB9EC1F49F6A /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DC661A62DDA26D27227DFA0B9ED804 /* SwiftyJSON-dummy.m */; };
+		9E875D7EABFEDA3FAD668199BE151996 /* TNImageSliderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390E880E6780C6F74CE12020D6899644 /* TNImageSliderViewController-dummy.m */; };
+		A55586FD186B7CE433FDA86E2AA3C187 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C52D8563C4B930151B314134F8D5FDC /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89903787242F62CA8857DC9E4090D73 /* Pods-Radijo App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D333CD8ACA0C6717C547665C034E2069 /* Pods-Radijo App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19A5FF7EEC095A901277D482DA08803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E057FBB40CFD844B10B07D88C6411EC3 /* TNImageSliderViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB29180FECC690072983DD58C1E9CCF9 /* TNImageSliderViewController.bundle */; };
+		E47CA26B7348EC5F773D0458E4827776 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07A79C26015774276C80CEFFC4D9A68 /* SwiftyJSON.swift */; };
+		FB184239E4121BB836B2033A83EAAABF /* TNImageSliderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24047D0BCDE194B6DFC05818EE405D47 /* TNImageSliderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B01931DE1EBD71D5D2A0BCFFE050F4C /* PBXContainerItemProxy */ = {
+		0BC444E277775AF1EBE814D22C2CE13F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E88391937B58DFBA060651C713520FF;
+			remoteGlobalIDString = C9D595655507FF502A4481BCBDE7A418;
+			remoteInfo = SwiftyJSON;
+		};
+		266BF96AE87BC6E1130CF10C059FA9F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2FD8FFB78C7F2101D7F27DC47BF6DD;
 			remoteInfo = TNImageSliderViewController;
 		};
-		2D203C3D77FB222E3EA143F406C1C351 /* PBXContainerItemProxy */ = {
+		92806B8DAD7EA8EC6A7CD624C8144024 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 441AA8562BB13A3DEB4E24079FEE3691;
+			remoteGlobalIDString = 30EA49436FB7954868C48153983C887F;
 			remoteInfo = "TNImageSliderViewController-TNImageSliderViewController";
-		};
-		33EB24B3A2CED2142DF23E0442E72AFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D23EAEE707E91E32CB03A05D3ABC515E;
-			remoteInfo = EZAudio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01208B9C876D07AAE222E11C2D8A26DE /* EZAudio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZAudio-umbrella.h"; sourceTree = "<group>"; };
-		0897243BD350C7EE17D85BD445FF424B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08C91CE1E75CC5579B9CE5C7E27A0219 /* TNImageSliderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNImageSliderViewController-prefix.pch"; sourceTree = "<group>"; };
-		0E98F65DC6AB1C98F1834D3D11EF0FB4 /* Pods-Radijo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radijo App.debug.xcconfig"; sourceTree = "<group>"; };
-		0EEEE005F49CEEC8F73EC109F80F2028 /* TNImageSliderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNImageSliderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13248428AB07C0D750A07C500FDFD631 /* EZAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFile.h; path = EZAudio/EZAudioFile.h; sourceTree = "<group>"; };
-		1BABE9BBE8380EE8F3E8A3B9A2B63DA4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
-		20C6CF4943762C6D5FF4A6F414B29D17 /* EZMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZMicrophone.h; path = EZAudio/EZMicrophone.h; sourceTree = "<group>"; };
-		267CE90EE5D28C6939B6656CC2CD53EB /* EZAudio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZAudio-prefix.pch"; sourceTree = "<group>"; };
-		295C74FCD555C4D8E9E7E2BA37DE3EA3 /* EZAudioFloatData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatData.h; path = EZAudio/EZAudioFloatData.h; sourceTree = "<group>"; };
+		067C628749951DBA6CE4983E87C4189D /* Pods-Radijo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radijo App.debug.xcconfig"; sourceTree = "<group>"; };
+		0C52D8563C4B930151B314134F8D5FDC /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		24047D0BCDE194B6DFC05818EE405D47 /* TNImageSliderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNImageSliderViewController-umbrella.h"; sourceTree = "<group>"; };
 		2EA9D64FE773B1269893ECD1EE40E391 /* Pods-Radijo App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radijo App-resources.sh"; sourceTree = "<group>"; };
-		33C660CD7C14E7FE6E22C4B96E702DFF /* EZAudioPlotGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlotGL.h; path = EZAudio/EZAudioPlotGL.h; sourceTree = "<group>"; };
-		3439D066BC3B941B88EC0250EFB86145 /* EZAudioPlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlot.m; path = EZAudio/EZAudioPlot.m; sourceTree = "<group>"; };
-		4109B9C370A8AFE3C62D6960FA4287F1 /* TNImageSliderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNImageSliderViewController-umbrella.h"; sourceTree = "<group>"; };
-		4A4C7E963C3FC09F6A515AE340213178 /* EZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlayer.h; path = EZAudio/EZAudioPlayer.h; sourceTree = "<group>"; };
-		4D7C1665DA416FAD0CA0FEA2618EB9E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		4DB318FF391A29700A71B14B0EF68228 /* TNImageSliderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TNImageSliderViewController.xcconfig; sourceTree = "<group>"; };
-		524AE853E2283DBF51564DDCA39FDF5C /* EZAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudio.m; path = EZAudio/EZAudio.m; sourceTree = "<group>"; };
-		52F95CAAE53F5430B2C306D93E063E22 /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatConverter.h; path = EZAudio/EZAudioFloatConverter.h; sourceTree = "<group>"; };
-		54C61A7B90B0434E7452458F3599C7E5 /* EZPlot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZPlot.m; path = EZAudio/EZPlot.m; sourceTree = "<group>"; };
-		5B3BD40D922AAD0ED9BDBA5D4F001906 /* EZAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EEBFB460F44BB359BF0F768EF5F3D99 /* EZAudio-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EZAudio-Private.xcconfig"; sourceTree = "<group>"; };
-		605D0E50D2411B344D0390DF40B8EE18 /* EZAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDevice.h; path = EZAudio/EZAudioDevice.h; sourceTree = "<group>"; };
-		61062A4AC74C14C0693BBF0DE9216494 /* EZAudioFloatData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFloatData.m; path = EZAudio/EZAudioFloatData.m; sourceTree = "<group>"; };
-		64786EE9849CE503FC4874B028F3EF5A /* EZMicrophone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZMicrophone.m; path = EZAudio/EZMicrophone.m; sourceTree = "<group>"; };
-		679331607E13A1E8C4741F744005A49B /* EZAudioDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioDevice.m; path = EZAudio/EZAudioDevice.m; sourceTree = "<group>"; };
-		6E81ADDD87F71D7A9353D4951374F419 /* TNImageSliderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TNImageSliderViewController.modulemap; sourceTree = "<group>"; };
-		6EB257438198E8407AD1FA8898C9C50C /* EZRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZRecorder.m; path = EZAudio/EZRecorder.m; sourceTree = "<group>"; };
-		7177AD515C2BED09C23756B2ED271181 /* EZRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZRecorder.h; path = EZAudio/EZRecorder.h; sourceTree = "<group>"; };
-		7258B7F91207D11D4198D151BE343148 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		73931A350347DD4A324E7D76C3A7C928 /* Pods-Radijo App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radijo App-umbrella.h"; sourceTree = "<group>"; };
-		77AF80B76F19ECF179B405662DEFF492 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDisplayLink.h; path = EZAudio/EZAudioDisplayLink.h; sourceTree = "<group>"; };
-		7D199A88CB40D2062F710A2DE6FD7418 /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = EZAudio/TPCircularBuffer.h; sourceTree = "<group>"; };
-		7FBB19A954491E47A65D2797B00CB508 /* TNImageSliderCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TNImageSliderCollectionViewCell.swift; path = Pod/Classes/TNImageSliderCollectionViewCell.swift; sourceTree = "<group>"; };
-		8167422EB0359E1710A3B0A5756B502E /* TPCircularBuffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = EZAudio/TPCircularBuffer.c; sourceTree = "<group>"; };
-		819F1DD440E8E023DF7D21743BB6CD87 /* EZAudioDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioDisplayLink.m; path = EZAudio/EZAudioDisplayLink.m; sourceTree = "<group>"; };
-		823F9BBA4C949C840603B8166E033F5E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		8A01316EF9B8EBDC4337604F49B4CD25 /* EZAudioFFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFFT.h; path = EZAudio/EZAudioFFT.h; sourceTree = "<group>"; };
-		8CFBC0E660F9607F3A65987819A83397 /* EZAudio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EZAudio.modulemap; sourceTree = "<group>"; };
-		93CBC00B6AC4ED016C74750946BB1513 /* TNImageSliderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TNImageSliderViewController-dummy.m"; sourceTree = "<group>"; };
-		96F2160F0039E968BBF0994D5FE7B968 /* EZAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlot.h; path = EZAudio/EZAudioPlot.h; sourceTree = "<group>"; };
-		9CC62ABF2C2FE299E07A61C54985C29F /* EZAudioFloatConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFloatConverter.m; path = EZAudio/EZAudioFloatConverter.m; sourceTree = "<group>"; };
-		A3090F88DA92306BE86483E64EB9FBC9 /* Pods-Radijo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radijo App.release.xcconfig"; sourceTree = "<group>"; };
-		A82498690E3C04E6F6C14017CA1BE1C8 /* EZAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZAudio-dummy.m"; sourceTree = "<group>"; };
-		B311EC2423059AEA2A9C5888FE011567 /* EZAudioUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioUtilities.m; path = EZAudio/EZAudioUtilities.m; sourceTree = "<group>"; };
-		B865052192EA8F345371AE9536349F92 /* Pods-Radijo App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radijo App-dummy.m"; sourceTree = "<group>"; };
-		B91C07B84CC8688362267DAC9408BEE4 /* Pods_Radijo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radijo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3187486339331EE2377DB18E840CDA59 /* TNImageSliderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNImageSliderViewController-prefix.pch"; sourceTree = "<group>"; };
+		34DC661A62DDA26D27227DFA0B9ED804 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		37B259ED330A8FEC2C5DCE3BAE313F95 /* TNImageSliderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TNImageSliderViewController.swift; path = Pod/Classes/TNImageSliderViewController.swift; sourceTree = "<group>"; };
+		390E880E6780C6F74CE12020D6899644 /* TNImageSliderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TNImageSliderViewController-dummy.m"; sourceTree = "<group>"; };
+		3C9ACB98F73D25D391CC7018852528E8 /* Pods_Radijo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radijo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0E61CA85C548EA4E0AE8A97A71EF87 /* TNImageSliderCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TNImageSliderCollectionViewCell.swift; path = Pod/Classes/TNImageSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DAA3C1F0B6FB398F509D623397AA08E /* TNImageSliderCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TNImageSliderCollectionViewCell.xib; path = Pod/Classes/TNImageSliderCollectionViewCell.xib; sourceTree = "<group>"; };
+		629B80918793B2F2A2E1076097483FCD /* Pods-Radijo App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radijo App-dummy.m"; sourceTree = "<group>"; };
+		78D391B93B61EE02B77883AA2F9BABC8 /* TNImageSliderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TNImageSliderViewController.modulemap; sourceTree = "<group>"; };
+		7CE3B17E218FF8AA5FD1102F33622513 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		7E10FF95BC8A5C08CAAC79151ACEF723 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		8E5D755C8AEF9890686AD862CA1BB7BC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95169894E5AE0A63A5091008A6566E8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E30AA3A72EDB760C4F199BC9C6CD606 /* TNImageSliderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNImageSliderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB82E70B1D40D0292CE2701A282D5A23 /* TNImageSliderViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNImageSliderViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC32D0285815DB0DB72439E4166D99E3 /* Pods-Radijo App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radijo App-frameworks.sh"; sourceTree = "<group>"; };
-		BDBDFEC6123398A8C7BDFD0316E91A32 /* TNImageSliderCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TNImageSliderCollectionViewCell.xib; path = Pod/Classes/TNImageSliderCollectionViewCell.xib; sourceTree = "<group>"; };
 		C386655EFF27FBFB0F5F81B1BAEF797C /* Pods-Radijo App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Radijo App.modulemap"; sourceTree = "<group>"; };
-		C819900BD4D007853D4ECB4AAB3A1F9E /* EZAudio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZAudio.xcconfig; sourceTree = "<group>"; };
-		D28975BB7233C6A68405D9C7C15A8307 /* EZAudioPlotGL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlotGL.m; path = EZAudio/EZAudioPlotGL.m; sourceTree = "<group>"; };
-		D41D8C6DA4523D21256921D3B08F88AD /* EZAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFile.m; path = EZAudio/EZAudioFile.m; sourceTree = "<group>"; };
+		D333CD8ACA0C6717C547665C034E2069 /* Pods-Radijo App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radijo App-umbrella.h"; sourceTree = "<group>"; };
+		DB29180FECC690072983DD58C1E9CCF9 /* TNImageSliderViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNImageSliderViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07A79C26015774276C80CEFFC4D9A68 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		E1A7762E7A7DED938C6D091E823D04A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2084C83575E5077CBA836B5E5E84D95 /* Pods-Radijo App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radijo App-acknowledgements.plist"; sourceTree = "<group>"; };
-		E243339D508E3495D2FDFBD24ADAF7D6 /* EZAudioFFT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioFFT.m; path = EZAudio/EZAudioFFT.m; sourceTree = "<group>"; };
-		EAE05B8E22F56C0C99D49D7F38C09F6D /* EZOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZOutput.m; path = EZAudio/EZOutput.m; sourceTree = "<group>"; };
-		EB09704C79C84B163F2FE4FF6479DC81 /* EZOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZOutput.h; path = EZAudio/EZOutput.h; sourceTree = "<group>"; };
-		EC07785C44D6208ADFFE0692928C0A3C /* EZAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioUtilities.h; path = EZAudio/EZAudioUtilities.h; sourceTree = "<group>"; };
-		EDE2A76B7B46F4466F47BB3C3E67E281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F1D33ECE66989076913B559B84F231D0 /* TNImageSliderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TNImageSliderViewController.swift; path = Pod/Classes/TNImageSliderViewController.swift; sourceTree = "<group>"; };
-		F267F91F315271E8D7263AD618B92D7A /* EZAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudio.h; path = EZAudio/EZAudio.h; sourceTree = "<group>"; };
-		F2CCDA5F53F6C512A7AD81211EDC4F07 /* EZAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EZAudioPlayer.m; path = EZAudio/EZAudioPlayer.m; sourceTree = "<group>"; };
-		FCCBD38B35EA6D9D6068620A870B1B72 /* EZPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZPlot.h; path = EZAudio/EZPlot.h; sourceTree = "<group>"; };
-		FD55997339856EBFC72F626A36A3B700 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TNImageSliderViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		E6B0E73EB1F2346A4B1DD79E8872169B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA23B5F5B8E6FDCCF0879A50BD0D4511 /* Pods-Radijo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radijo App.release.xcconfig"; sourceTree = "<group>"; };
+		F9392124F7A59DAD6D901441402BE76E /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TNImageSliderViewController.xcconfig; sourceTree = "<group>"; };
 		FF6C593B150B4908D9483A1CD0CA2020 /* Pods-Radijo App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radijo App-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		007AF8F91808266B2C9A231849A0C82D /* Frameworks */ = {
+		176216E1020C3DF3EEA6A4C428023709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6956CA7CA3B4C8E6365DD3C7E9993107 /* Foundation.framework in Frameworks */,
+				500609D3EA16D371C40FCF17D6330E3B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EB68EBBFCB8250469D12119FCFA9EF1 /* Frameworks */ = {
+		62280D9AA99C14F9B562C955B5181802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19A5FF7EEC095A901277D482DA08803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E453C60DAC99EC727AFBF410C5ADA3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EE3C60EC8EE9CFB70C024B68491A7D0 /* Frameworks */ = {
+		DC4C34B49D79377E09E2C5EF42B38092 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7C091A58CF73F189E18510026E23B1 /* AVFoundation.framework in Frameworks */,
-				94527B8D119A404471F20159D01469FE /* Accelerate.framework in Frameworks */,
-				A7E57B1A73289543C0C26B4E2C174BE6 /* AudioToolbox.framework in Frameworks */,
-				780D4D7CCC412F70234EC7DDBC68ED46 /* Foundation.framework in Frameworks */,
-				EC93984A51034D07D8BB0E23CC8A8CE3 /* GLKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAC0946ABDE0C15263177628D06520B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF972E0F80E8C9BD2EC94B0E1A276733 /* Foundation.framework in Frameworks */,
+				80C6AA186869E0CC1B1FF4C67B1DAE4F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0616D620D26BCEFFA0C3E3E88909D62D /* Resources */ = {
+		2F45DF474BD051B66A00C2C192EB3126 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				E6B0E73EB1F2346A4B1DD79E8872169B /* Info.plist */,
+				78D391B93B61EE02B77883AA2F9BABC8 /* TNImageSliderViewController.modulemap */,
+				FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */,
+				390E880E6780C6F74CE12020D6899644 /* TNImageSliderViewController-dummy.m */,
+				3187486339331EE2377DB18E840CDA59 /* TNImageSliderViewController-prefix.pch */,
+				24047D0BCDE194B6DFC05818EE405D47 /* TNImageSliderViewController-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/TNImageSliderViewController";
 			sourceTree = "<group>";
 		};
-		1813CD683E79D93294C20F281C9FCD37 /* EZAudio */ = {
+		36589203C238F3F753FEBA36D2720D75 /* TNImageSliderViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DC857626D3867E10BE58819999D25371 /* Core */,
-				EB4D8A939C2AE395271422A55FAACB39 /* Support Files */,
+				3E0E61CA85C548EA4E0AE8A97A71EF87 /* TNImageSliderCollectionViewCell.swift */,
+				4DAA3C1F0B6FB398F509D623397AA08E /* TNImageSliderCollectionViewCell.xib */,
+				37B259ED330A8FEC2C5DCE3BAE313F95 /* TNImageSliderViewController.swift */,
+				E1AAFA750B5E69E9BA8FAF7D37F5FD3A /* Resources */,
+				2F45DF474BD051B66A00C2C192EB3126 /* Support Files */,
 			);
-			path = EZAudio;
+			path = TNImageSliderViewController;
 			sourceTree = "<group>";
 		};
-		186D0C4CC3E646DC82B6767BE27653C6 /* iOS */ = {
+		7186EA739750FF8ECEA2F79165C09E9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D7C1665DA416FAD0CA0FEA2618EB9E8 /* AVFoundation.framework */,
-				7258B7F91207D11D4198D151BE343148 /* Accelerate.framework */,
-				823F9BBA4C949C840603B8166E033F5E /* AudioToolbox.framework */,
-				EDE2A76B7B46F4466F47BB3C3E67E281 /* Foundation.framework */,
-				1BABE9BBE8380EE8F3E8A3B9A2B63DA4 /* GLKit.framework */,
+				3C9ACB98F73D25D391CC7018852528E8 /* Pods_Radijo_App.framework */,
+				8E5D755C8AEF9890686AD862CA1BB7BC /* SwiftyJSON.framework */,
+				DB29180FECC690072983DD58C1E9CCF9 /* TNImageSliderViewController.bundle */,
+				9E30AA3A72EDB760C4F199BC9C6CD606 /* TNImageSliderViewController.framework */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				186D0C4CC3E646DC82B6767BE27653C6 /* iOS */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				B4663AF70B6FC853F87EEB6329B2735B /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DBF2C77449AA92101202AEC307D6354D /* Pods */,
+				7186EA739750FF8ECEA2F79165C09E9C /* Products */,
 				CB25BCA26B6363304630C37CFBEDB35A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		83DFBD6AAAF44D41246F1E815E02E5D3 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				E07A79C26015774276C80CEFFC4D9A68 /* SwiftyJSON.swift */,
+				F0AC80D90CCBF03B4373FA1B7DD565D8 /* Support Files */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 		901C18D0E581AD82841C6DDFAF106CDF /* Pods-Radijo App */ = {
@@ -248,39 +182,31 @@
 				C386655EFF27FBFB0F5F81B1BAEF797C /* Pods-Radijo App.modulemap */,
 				FF6C593B150B4908D9483A1CD0CA2020 /* Pods-Radijo App-acknowledgements.markdown */,
 				E2084C83575E5077CBA836B5E5E84D95 /* Pods-Radijo App-acknowledgements.plist */,
-				B865052192EA8F345371AE9536349F92 /* Pods-Radijo App-dummy.m */,
+				629B80918793B2F2A2E1076097483FCD /* Pods-Radijo App-dummy.m */,
 				BC32D0285815DB0DB72439E4166D99E3 /* Pods-Radijo App-frameworks.sh */,
 				2EA9D64FE773B1269893ECD1EE40E391 /* Pods-Radijo App-resources.sh */,
-				73931A350347DD4A324E7D76C3A7C928 /* Pods-Radijo App-umbrella.h */,
-				0E98F65DC6AB1C98F1834D3D11EF0FB4 /* Pods-Radijo App.debug.xcconfig */,
-				A3090F88DA92306BE86483E64EB9FBC9 /* Pods-Radijo App.release.xcconfig */,
+				D333CD8ACA0C6717C547665C034E2069 /* Pods-Radijo App-umbrella.h */,
+				067C628749951DBA6CE4983E87C4189D /* Pods-Radijo App.debug.xcconfig */,
+				EA23B5F5B8E6FDCCF0879A50BD0D4511 /* Pods-Radijo App.release.xcconfig */,
 			);
 			name = "Pods-Radijo App";
 			path = "Target Support Files/Pods-Radijo App";
 			sourceTree = "<group>";
 		};
-		A2CBDBB17F765FAC75F50697D204E241 /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD55997339856EBFC72F626A36A3B700 /* Info.plist */,
-				6E81ADDD87F71D7A9353D4951374F419 /* TNImageSliderViewController.modulemap */,
-				4DB318FF391A29700A71B14B0EF68228 /* TNImageSliderViewController.xcconfig */,
-				FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */,
-				93CBC00B6AC4ED016C74750946BB1513 /* TNImageSliderViewController-dummy.m */,
-				08C91CE1E75CC5579B9CE5C7E27A0219 /* TNImageSliderViewController-prefix.pch */,
-				4109B9C370A8AFE3C62D6960FA4287F1 /* TNImageSliderViewController-umbrella.h */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TNImageSliderViewController";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B4663AF70B6FC853F87EEB6329B2735B /* Pods */ = {
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1813CD683E79D93294C20F281C9FCD37 /* EZAudio */,
-				EAB2B25A107922263CCD530D623474FE /* TNImageSliderViewController */,
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CB25BCA26B6363304630C37CFBEDB35A /* Targets Support Files */ = {
@@ -291,136 +217,92 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		DBF2C77449AA92101202AEC307D6354D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5B3BD40D922AAD0ED9BDBA5D4F001906 /* EZAudio.framework */,
-				B91C07B84CC8688362267DAC9408BEE4 /* Pods_Radijo_App.framework */,
-				BB82E70B1D40D0292CE2701A282D5A23 /* TNImageSliderViewController.bundle */,
-				0EEEE005F49CEEC8F73EC109F80F2028 /* TNImageSliderViewController.framework */,
+				83DFBD6AAAF44D41246F1E815E02E5D3 /* SwiftyJSON */,
+				36589203C238F3F753FEBA36D2720D75 /* TNImageSliderViewController */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC857626D3867E10BE58819999D25371 /* Core */ = {
+		E1AAFA750B5E69E9BA8FAF7D37F5FD3A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F267F91F315271E8D7263AD618B92D7A /* EZAudio.h */,
-				524AE853E2283DBF51564DDCA39FDF5C /* EZAudio.m */,
-				605D0E50D2411B344D0390DF40B8EE18 /* EZAudioDevice.h */,
-				679331607E13A1E8C4741F744005A49B /* EZAudioDevice.m */,
-				77AF80B76F19ECF179B405662DEFF492 /* EZAudioDisplayLink.h */,
-				819F1DD440E8E023DF7D21743BB6CD87 /* EZAudioDisplayLink.m */,
-				8A01316EF9B8EBDC4337604F49B4CD25 /* EZAudioFFT.h */,
-				E243339D508E3495D2FDFBD24ADAF7D6 /* EZAudioFFT.m */,
-				13248428AB07C0D750A07C500FDFD631 /* EZAudioFile.h */,
-				D41D8C6DA4523D21256921D3B08F88AD /* EZAudioFile.m */,
-				52F95CAAE53F5430B2C306D93E063E22 /* EZAudioFloatConverter.h */,
-				9CC62ABF2C2FE299E07A61C54985C29F /* EZAudioFloatConverter.m */,
-				295C74FCD555C4D8E9E7E2BA37DE3EA3 /* EZAudioFloatData.h */,
-				61062A4AC74C14C0693BBF0DE9216494 /* EZAudioFloatData.m */,
-				4A4C7E963C3FC09F6A515AE340213178 /* EZAudioPlayer.h */,
-				F2CCDA5F53F6C512A7AD81211EDC4F07 /* EZAudioPlayer.m */,
-				96F2160F0039E968BBF0994D5FE7B968 /* EZAudioPlot.h */,
-				3439D066BC3B941B88EC0250EFB86145 /* EZAudioPlot.m */,
-				33C660CD7C14E7FE6E22C4B96E702DFF /* EZAudioPlotGL.h */,
-				D28975BB7233C6A68405D9C7C15A8307 /* EZAudioPlotGL.m */,
-				EC07785C44D6208ADFFE0692928C0A3C /* EZAudioUtilities.h */,
-				B311EC2423059AEA2A9C5888FE011567 /* EZAudioUtilities.m */,
-				20C6CF4943762C6D5FF4A6F414B29D17 /* EZMicrophone.h */,
-				64786EE9849CE503FC4874B028F3EF5A /* EZMicrophone.m */,
-				EB09704C79C84B163F2FE4FF6479DC81 /* EZOutput.h */,
-				EAE05B8E22F56C0C99D49D7F38C09F6D /* EZOutput.m */,
-				FCCBD38B35EA6D9D6068620A870B1B72 /* EZPlot.h */,
-				54C61A7B90B0434E7452458F3599C7E5 /* EZPlot.m */,
-				7177AD515C2BED09C23756B2ED271181 /* EZRecorder.h */,
-				6EB257438198E8407AD1FA8898C9C50C /* EZRecorder.m */,
-				8167422EB0359E1710A3B0A5756B502E /* TPCircularBuffer.c */,
-				7D199A88CB40D2062F710A2DE6FD7418 /* TPCircularBuffer.h */,
 			);
-			name = Core;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		EAB2B25A107922263CCD530D623474FE /* TNImageSliderViewController */ = {
+		F0AC80D90CCBF03B4373FA1B7DD565D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7FBB19A954491E47A65D2797B00CB508 /* TNImageSliderCollectionViewCell.swift */,
-				BDBDFEC6123398A8C7BDFD0316E91A32 /* TNImageSliderCollectionViewCell.xib */,
-				F1D33ECE66989076913B559B84F231D0 /* TNImageSliderViewController.swift */,
-				0616D620D26BCEFFA0C3E3E88909D62D /* Resources */,
-				A2CBDBB17F765FAC75F50697D204E241 /* Support Files */,
-			);
-			path = TNImageSliderViewController;
-			sourceTree = "<group>";
-		};
-		EB4D8A939C2AE395271422A55FAACB39 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CFBC0E660F9607F3A65987819A83397 /* EZAudio.modulemap */,
-				C819900BD4D007853D4ECB4AAB3A1F9E /* EZAudio.xcconfig */,
-				5EEBFB460F44BB359BF0F768EF5F3D99 /* EZAudio-Private.xcconfig */,
-				A82498690E3C04E6F6C14017CA1BE1C8 /* EZAudio-dummy.m */,
-				267CE90EE5D28C6939B6656CC2CD53EB /* EZAudio-prefix.pch */,
-				01208B9C876D07AAE222E11C2D8A26DE /* EZAudio-umbrella.h */,
-				0897243BD350C7EE17D85BD445FF424B /* Info.plist */,
+				95169894E5AE0A63A5091008A6566E8C /* Info.plist */,
+				7E10FF95BC8A5C08CAAC79151ACEF723 /* SwiftyJSON.modulemap */,
+				7CE3B17E218FF8AA5FD1102F33622513 /* SwiftyJSON.xcconfig */,
+				34DC661A62DDA26D27227DFA0B9ED804 /* SwiftyJSON-dummy.m */,
+				F9392124F7A59DAD6D901441402BE76E /* SwiftyJSON-prefix.pch */,
+				0C52D8563C4B930151B314134F8D5FDC /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/EZAudio";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02AD87BB61F13632BE006DD7F618F3E4 /* Headers */ = {
+		7FA1F7B1FF148449BA1A6FA63B129382 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A729577AE8EE6A7709E19816B91C30 /* TNImageSliderViewController-umbrella.h in Headers */,
+				A55586FD186B7CE433FDA86E2AA3C187 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26E81512B63DE8DEF4AC5951F657E218 /* Headers */ = {
+		BAB160F52ED67E1EC70BE67D51DE5965 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B98E9B71ECD62E0D0C7562FBB72F23 /* Pods-Radijo App-umbrella.h in Headers */,
+				B89903787242F62CA8857DC9E4090D73 /* Pods-Radijo App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C3FFE5BDD3E5C6B3DD57C25DDA6A56E /* Headers */ = {
+		CA344749F1DECA3E1C7F94497029FDEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B993D6DAEEB7DE67C890695DDFBE705 /* EZAudio-umbrella.h in Headers */,
-				8987658B41876BE8A82A3CC7582FCBA6 /* EZAudio.h in Headers */,
-				2519D13DA253CB4270C6B9A1BFF82226 /* EZAudioDevice.h in Headers */,
-				7C4EC5CED211715E188B149C93A898BF /* EZAudioDisplayLink.h in Headers */,
-				2AFAC48A3E5EF89FD1FC454816ED5563 /* EZAudioFFT.h in Headers */,
-				45A655FF0DD339E846C50F4AEBE5E4CF /* EZAudioFile.h in Headers */,
-				0E96A5E902DE68D2241E1D128C741BB9 /* EZAudioFloatConverter.h in Headers */,
-				79CAEC4A7D54CF0F384C7A8AA7DB65FA /* EZAudioFloatData.h in Headers */,
-				F35670A9FFE9CFFD0AF4AAB070D164C0 /* EZAudioPlayer.h in Headers */,
-				D14FA2ADE37584D6019D11AF5FF1C140 /* EZAudioPlot.h in Headers */,
-				AA8B5FC6ECD3B6201B0139CA3B56382A /* EZAudioPlotGL.h in Headers */,
-				BA9B05B8DBB9BA0360A404222C1EB68A /* EZAudioUtilities.h in Headers */,
-				0CCBCDA9ADF4BAFBB3B19F5C8DF8135C /* EZMicrophone.h in Headers */,
-				17C5F676E368384C0DF9268D7D1B1D74 /* EZOutput.h in Headers */,
-				FB67C2EFB376005718D4CFEE40624648 /* EZPlot.h in Headers */,
-				D7A48241A4D207A8DE3F970818D52A8F /* EZRecorder.h in Headers */,
-				0103B48123D41EC8D5F05E1AA98CD5AD /* TPCircularBuffer.h in Headers */,
+				FB184239E4121BB836B2033A83EAAABF /* TNImageSliderViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		441AA8562BB13A3DEB4E24079FEE3691 /* TNImageSliderViewController-TNImageSliderViewController */ = {
+		2C15C21172EE2E1A409E0F314B74CF63 /* Pods-Radijo App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A376FFCAE72FBFE0293119E18F427BB /* Build configuration list for PBXNativeTarget "TNImageSliderViewController-TNImageSliderViewController" */;
+			buildConfigurationList = 7DE18EBF18A1CDC9D45556C087FE4D6A /* Build configuration list for PBXNativeTarget "Pods-Radijo App" */;
 			buildPhases = (
-				EC848A41DB63A08B041CD206E76E70AF /* Sources */,
-				8EB68EBBFCB8250469D12119FCFA9EF1 /* Frameworks */,
-				2EB3FE7BE2B15D9CA54CC037932DCE9E /* Resources */,
+				7A4E32417EF08FBE90A8993C835CAA86 /* Sources */,
+				176216E1020C3DF3EEA6A4C428023709 /* Frameworks */,
+				BAB160F52ED67E1EC70BE67D51DE5965 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9214B04F082A885BD32E22BAFC24918 /* PBXTargetDependency */,
+				10386FE6851072E3FEB80ACD159B671B /* PBXTargetDependency */,
+			);
+			name = "Pods-Radijo App";
+			productName = "Pods-Radijo App";
+			productReference = 3C9ACB98F73D25D391CC7018852528E8 /* Pods_Radijo_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30EA49436FB7954868C48153983C887F /* TNImageSliderViewController-TNImageSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB7F8B0204EFDCC90CF5863620A766F /* Build configuration list for PBXNativeTarget "TNImageSliderViewController-TNImageSliderViewController" */;
+			buildPhases = (
+				B6B19885D93194A02A38B7E324E04F5F /* Sources */,
+				7E453C60DAC99EC727AFBF410C5ADA3D /* Frameworks */,
+				C7ED89B18887C12FCCEB4841EB0B5F5A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -428,62 +310,43 @@
 			);
 			name = "TNImageSliderViewController-TNImageSliderViewController";
 			productName = "TNImageSliderViewController-TNImageSliderViewController";
-			productReference = BB82E70B1D40D0292CE2701A282D5A23 /* TNImageSliderViewController.bundle */;
+			productReference = DB29180FECC690072983DD58C1E9CCF9 /* TNImageSliderViewController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		7E88391937B58DFBA060651C713520FF /* TNImageSliderViewController */ = {
+		C9D595655507FF502A4481BCBDE7A418 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF52C8B99DD4EA894B25B43D47C3DDFA /* Build configuration list for PBXNativeTarget "TNImageSliderViewController" */;
+			buildConfigurationList = FD55A7C14704854FB21AD4F9A5F57FB7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				BE6611DE6E1BF9EE380E31CFE66CD845 /* Sources */,
-				007AF8F91808266B2C9A231849A0C82D /* Frameworks */,
-				B86A4222B9C356FA2EAE31CA999C92AA /* Resources */,
-				02AD87BB61F13632BE006DD7F618F3E4 /* Headers */,
+				92111EFC0BEFB17BA97F22697151558C /* Sources */,
+				62280D9AA99C14F9B562C955B5181802 /* Frameworks */,
+				7FA1F7B1FF148449BA1A6FA63B129382 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EFEF25EFE8D44578253C39886708F921 /* PBXTargetDependency */,
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 8E5D755C8AEF9890686AD862CA1BB7BC /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2FD8FFB78C7F2101D7F27DC47BF6DD /* TNImageSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76399984A3722389AD81AA2285D37168 /* Build configuration list for PBXNativeTarget "TNImageSliderViewController" */;
+			buildPhases = (
+				F2DF289EAF0F5912606AECDD9B4999B2 /* Sources */,
+				DC4C34B49D79377E09E2C5EF42B38092 /* Frameworks */,
+				73AFD878C674917089D21E9335067E10 /* Resources */,
+				CA344749F1DECA3E1C7F94497029FDEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A26207F107DB8850DEC51C95E5B836 /* PBXTargetDependency */,
 			);
 			name = TNImageSliderViewController;
 			productName = TNImageSliderViewController;
-			productReference = 0EEEE005F49CEEC8F73EC109F80F2028 /* TNImageSliderViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C6A3179F1E889479767CAC7BA9112C50 /* Pods-Radijo App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA139BD47FFF5CE93E1410BDAECBED89 /* Build configuration list for PBXNativeTarget "Pods-Radijo App" */;
-			buildPhases = (
-				67193AEBFF27D8AFA64D04BE9A73B328 /* Sources */,
-				AAC0946ABDE0C15263177628D06520B9 /* Frameworks */,
-				26E81512B63DE8DEF4AC5951F657E218 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8C5970A4C25BAFD1589B64F97D81EC9 /* PBXTargetDependency */,
-				1D5F6103A8748674FE0B0168E3811721 /* PBXTargetDependency */,
-			);
-			name = "Pods-Radijo App";
-			productName = "Pods-Radijo App";
-			productReference = B91C07B84CC8688362267DAC9408BEE4 /* Pods_Radijo_App.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D23EAEE707E91E32CB03A05D3ABC515E /* EZAudio */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F835EF0C96D0BF66244EF8F032F29F7 /* Build configuration list for PBXNativeTarget "EZAudio" */;
-			buildPhases = (
-				50BBB0072BB9A4C7731D65B91874BC50 /* Sources */,
-				9EE3C60EC8EE9CFB70C024B68491A7D0 /* Frameworks */,
-				6C3FFE5BDD3E5C6B3DD57C25DDA6A56E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EZAudio;
-			productName = EZAudio;
-			productReference = 5B3BD40D922AAD0ED9BDBA5D4F001906 /* EZAudio.framework */;
+			productReference = 9E30AA3A72EDB760C4F199BC9C6CD606 /* TNImageSliderViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -492,17 +355,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					7E88391937B58DFBA060651C713520FF = {
-						DevelopmentTeam = 6DS4M9M59H;
-					};
-					D23EAEE707E91E32CB03A05D3ABC515E = {
-						DevelopmentTeam = 6DS4M9M59H;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -512,115 +366,151 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 7186EA739750FF8ECEA2F79165C09E9C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D23EAEE707E91E32CB03A05D3ABC515E /* EZAudio */,
-				C6A3179F1E889479767CAC7BA9112C50 /* Pods-Radijo App */,
-				7E88391937B58DFBA060651C713520FF /* TNImageSliderViewController */,
-				441AA8562BB13A3DEB4E24079FEE3691 /* TNImageSliderViewController-TNImageSliderViewController */,
+				2C15C21172EE2E1A409E0F314B74CF63 /* Pods-Radijo App */,
+				C9D595655507FF502A4481BCBDE7A418 /* SwiftyJSON */,
+				DF2FD8FFB78C7F2101D7F27DC47BF6DD /* TNImageSliderViewController */,
+				30EA49436FB7954868C48153983C887F /* TNImageSliderViewController-TNImageSliderViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2EB3FE7BE2B15D9CA54CC037932DCE9E /* Resources */ = {
+		73AFD878C674917089D21E9335067E10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB22A8F1E42DBDA1AF316448A8B4742 /* TNImageSliderCollectionViewCell.xib in Resources */,
+				E057FBB40CFD844B10B07D88C6411EC3 /* TNImageSliderViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B86A4222B9C356FA2EAE31CA999C92AA /* Resources */ = {
+		C7ED89B18887C12FCCEB4841EB0B5F5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDDCF15E5DD65B5C5A42596CE42F536 /* TNImageSliderCollectionViewCell.xib in Resources */,
-				A9B5025D4CE7597EBCF20268FAA56C58 /* TNImageSliderViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50BBB0072BB9A4C7731D65B91874BC50 /* Sources */ = {
+		7A4E32417EF08FBE90A8993C835CAA86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C337068028D658FE3C6C1EF7F8AA8502 /* EZAudio-dummy.m in Sources */,
-				1AA68F7652D19A063F9458C5EFAF91F7 /* EZAudio.m in Sources */,
-				42FC7B42C14E5C01D0AE6FE9E8871304 /* EZAudioDevice.m in Sources */,
-				3D45AA22E6F5D1AFAB39152B1039566A /* EZAudioDisplayLink.m in Sources */,
-				3E05211B3F63F9B29711FDDFC1937DF2 /* EZAudioFFT.m in Sources */,
-				6616267560183FD91E33ADDB4F0576DC /* EZAudioFile.m in Sources */,
-				405506C7AC913D80B706E1BE105D8EB1 /* EZAudioFloatConverter.m in Sources */,
-				8787D5F78B565D64698DDD3514466A87 /* EZAudioFloatData.m in Sources */,
-				0880C1ABE170990DB150A503706B50B2 /* EZAudioPlayer.m in Sources */,
-				ABF390687444413F007279C9D3906BA0 /* EZAudioPlot.m in Sources */,
-				205BF7A54F5A20CC68698E86596A3D8A /* EZAudioPlotGL.m in Sources */,
-				DE4119B1807E9DB1C2FF7D48BDFD9D19 /* EZAudioUtilities.m in Sources */,
-				D0EF8773C4B78C22C7313D4FAD815172 /* EZMicrophone.m in Sources */,
-				EED3CC89E287B294314A6AE72445ED21 /* EZOutput.m in Sources */,
-				77F885FB2E70788898BC9926C49716E4 /* EZPlot.m in Sources */,
-				DF3FBA89EAAD0882277413FC60E0D240 /* EZRecorder.m in Sources */,
-				8EC38AB5C42DDEBEA973B76C6183709A /* TPCircularBuffer.c in Sources */,
+				15F9EB42F358F70422610E72BDE9EF2A /* Pods-Radijo App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67193AEBFF27D8AFA64D04BE9A73B328 /* Sources */ = {
+		92111EFC0BEFB17BA97F22697151558C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC1FE089AC0ADCDEEA399A7309E8A5D /* Pods-Radijo App-dummy.m in Sources */,
+				8579190B35A81D70E5A0DB9EC1F49F6A /* SwiftyJSON-dummy.m in Sources */,
+				E47CA26B7348EC5F773D0458E4827776 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE6611DE6E1BF9EE380E31CFE66CD845 /* Sources */ = {
+		B6B19885D93194A02A38B7E324E04F5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17ABE2BD8D3E71CEDE9E1546543A0168 /* TNImageSliderCollectionViewCell.swift in Sources */,
-				50D4968E3771139177BF9E2D064E1EA1 /* TNImageSliderCollectionViewCell.xib in Sources */,
-				EA861A9E889B1D7C5EC8BAEDCAC3626E /* TNImageSliderViewController-dummy.m in Sources */,
-				11D79B1DB6BA362289E8FFDDB43A6229 /* TNImageSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC848A41DB63A08B041CD206E76E70AF /* Sources */ = {
+		F2DF289EAF0F5912606AECDD9B4999B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7219B0DB3947864AAC6F231F87B008 /* TNImageSliderCollectionViewCell.swift in Sources */,
+				7D937656B00897DD5BC49BFEA577A039 /* TNImageSliderCollectionViewCell.xib in Sources */,
+				9E875D7EABFEDA3FAD668199BE151996 /* TNImageSliderViewController-dummy.m in Sources */,
+				24A61291ABC04FE0336C1504FC508C57 /* TNImageSliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D5F6103A8748674FE0B0168E3811721 /* PBXTargetDependency */ = {
+		10386FE6851072E3FEB80ACD159B671B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TNImageSliderViewController;
-			target = 7E88391937B58DFBA060651C713520FF /* TNImageSliderViewController */;
-			targetProxy = 2B01931DE1EBD71D5D2A0BCFFE050F4C /* PBXContainerItemProxy */;
+			target = DF2FD8FFB78C7F2101D7F27DC47BF6DD /* TNImageSliderViewController */;
+			targetProxy = 266BF96AE87BC6E1130CF10C059FA9F5 /* PBXContainerItemProxy */;
 		};
-		EFEF25EFE8D44578253C39886708F921 /* PBXTargetDependency */ = {
+		59A26207F107DB8850DEC51C95E5B836 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TNImageSliderViewController-TNImageSliderViewController";
-			target = 441AA8562BB13A3DEB4E24079FEE3691 /* TNImageSliderViewController-TNImageSliderViewController */;
-			targetProxy = 2D203C3D77FB222E3EA143F406C1C351 /* PBXContainerItemProxy */;
+			target = 30EA49436FB7954868C48153983C887F /* TNImageSliderViewController-TNImageSliderViewController */;
+			targetProxy = 92806B8DAD7EA8EC6A7CD624C8144024 /* PBXContainerItemProxy */;
 		};
-		F8C5970A4C25BAFD1589B64F97D81EC9 /* PBXTargetDependency */ = {
+		B9214B04F082A885BD32E22BAFC24918 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = EZAudio;
-			target = D23EAEE707E91E32CB03A05D3ABC515E /* EZAudio */;
-			targetProxy = 33EB24B3A2CED2142DF23E0442E72AFA /* PBXContainerItemProxy */;
+			name = SwiftyJSON;
+			target = C9D595655507FF502A4481BCBDE7A418 /* SwiftyJSON */;
+			targetProxy = 0BC444E277775AF1EBE814D22C2CE13F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A380027E0435E848C95928B37950249 /* Release */ = {
+		13161ED8B20CDB838BF23F0504013EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3090F88DA92306BE86483E64EB9FBC9 /* Pods-Radijo App.release.xcconfig */;
+			baseConfigurationReference = FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TNImageSliderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2C68831411CCFD9945D3AD96F95CFE2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNImageSliderViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TNImageSliderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D020E2BB2C66DCA9BA1793D5A42BD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TNImageSliderViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3DD9C8440F96642AB062E303D456E919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA23B5F5B8E6FDCCF0879A50BD0D4511 /* Pods-Radijo App.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -633,6 +523,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Radijo App/Pods-Radijo App.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -647,69 +538,15 @@
 			};
 			name = Release;
 		};
-		24ADAED1970DDCD5479DC46CB8123E84 /* Release */ = {
+		6452DC302DF11E8F948599F0EA941B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */;
+			baseConfigurationReference = FC7F5F48FF5F6CBA7179832576CFA90F /* TNImageSliderViewController.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TNImageSliderViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TNImageSliderViewController;
-				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4860F4C328DFA5665CD6FD6A6AEDECEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TNImageSliderViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6A418231189FA8F961909B5F2B52ED09 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TNImageSliderViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6A6925D507E6BEBF073228D2AA5CF763 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE498CB8011E594C235BB8FDE21DB163 /* TNImageSliderViewController-Private.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController-prefix.pch";
@@ -720,7 +557,6 @@
 				MODULEMAP_FILE = "Target Support Files/TNImageSliderViewController/TNImageSliderViewController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TNImageSliderViewController;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -769,67 +605,9 @@
 			};
 			name = Debug;
 		};
-		B2662EBCFD1F6140AA8041D3E2DC64A9 /* Debug */ = {
+		B922C962CA50043079C8E26F3DCE7380 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EEBFB460F44BB359BF0F768EF5F3D99 /* EZAudio-Private.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EZAudio/EZAudio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EZAudio/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EZAudio/EZAudio.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EZAudio;
-				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F3F3BFEE815F4A7587EE4A5146FAE48F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EEBFB460F44BB359BF0F768EF5F3D99 /* EZAudio-Private.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EZAudio/EZAudio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EZAudio/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EZAudio/EZAudio.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EZAudio;
-				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F64DA5049174F746EF55882AEDA40335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E98F65DC6AB1C98F1834D3D11EF0FB4 /* Pods-Radijo App.debug.xcconfig */;
+			baseConfigurationReference = 7CE3B17E218FF8AA5FD1102F33622513 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -838,16 +616,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Radijo App/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Radijo App/Pods-Radijo App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Radijo_App;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -856,6 +632,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D665D0C8C0B6FF92F2497192079ACF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE3B17E218FF8AA5FD1102F33622513 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -891,6 +694,37 @@
 			};
 			name = Release;
 		};
+		FE258FD8BF700A825CDC074B77A64446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067C628749951DBA6CE4983E87C4189D /* Pods-Radijo App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Radijo App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radijo App/Pods-Radijo App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Radijo_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -903,38 +737,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F835EF0C96D0BF66244EF8F032F29F7 /* Build configuration list for PBXNativeTarget "EZAudio" */ = {
+		76399984A3722389AD81AA2285D37168 /* Build configuration list for PBXNativeTarget "TNImageSliderViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2662EBCFD1F6140AA8041D3E2DC64A9 /* Debug */,
-				F3F3BFEE815F4A7587EE4A5146FAE48F /* Release */,
+				6452DC302DF11E8F948599F0EA941B6F /* Debug */,
+				2C68831411CCFD9945D3AD96F95CFE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A376FFCAE72FBFE0293119E18F427BB /* Build configuration list for PBXNativeTarget "TNImageSliderViewController-TNImageSliderViewController" */ = {
+		7DE18EBF18A1CDC9D45556C087FE4D6A /* Build configuration list for PBXNativeTarget "Pods-Radijo App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A418231189FA8F961909B5F2B52ED09 /* Debug */,
-				4860F4C328DFA5665CD6FD6A6AEDECEC /* Release */,
+				FE258FD8BF700A825CDC074B77A64446 /* Debug */,
+				3DD9C8440F96642AB062E303D456E919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA139BD47FFF5CE93E1410BDAECBED89 /* Build configuration list for PBXNativeTarget "Pods-Radijo App" */ = {
+		9BB7F8B0204EFDCC90CF5863620A766F /* Build configuration list for PBXNativeTarget "TNImageSliderViewController-TNImageSliderViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F64DA5049174F746EF55882AEDA40335 /* Debug */,
-				0A380027E0435E848C95928B37950249 /* Release */,
+				13161ED8B20CDB838BF23F0504013EA8 /* Debug */,
+				3D020E2BB2C66DCA9BA1793D5A42BD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF52C8B99DD4EA894B25B43D47C3DDFA /* Build configuration list for PBXNativeTarget "TNImageSliderViewController" */ = {
+		FD55A7C14704854FB21AD4F9A5F57FB7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A6925D507E6BEBF073228D2AA5CF763 /* Debug */,
-				24ADAED1970DDCD5479DC46CB8123E84 /* Release */,
+				B922C962CA50043079C8E26F3DCE7380 /* Debug */,
+				D665D0C8C0B6FF92F2497192079ACF1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,6 +18,7 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var playPauseButton: UIImageView!
     @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var scheduleButton: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,23 +28,26 @@ class DetailViewController: UIViewController {
             self.title = titleString
         
         }
-        
-        /* audioplot code
-        
-        audioPlot.backgroundColor = UIColor.blackColor()
-        audioPlot.color = UIColor.whiteColor()
-        audioPlot.plotType = EZPlotType.Rolling
-        audioPlot.shouldFill = true
-        audioPlot.shouldMirror = true
-        */
+
+//        set navigation controller color to clear
+       
+//        navigationController?.navigationBar.barTintColor = UIColor.blackColor()
+//        navigationController?.navigationBar.translucent = true
+//        navigationController?.navigationBar.barStyle = UIBarStyle.Black
+//        navigationController?.navigationBar.backgroundColor = UIColor.clearColor()
+       
+
         
         // create a tapgesture recognizer
        
         let tapGestureRecognizer:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("buttonTapped:"))
         
+        let scheduleGestureRecognizer:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("scheduleTapped:"))
+        
         // add tapgesture recognizer to the play/pause button
         
         playPauseButton.addGestureRecognizer(tapGestureRecognizer)
+        scheduleButton.addGestureRecognizer(scheduleGestureRecognizer)
         
         // Do any additional setup after loading the view.
         
@@ -89,6 +93,8 @@ class DetailViewController: UIViewController {
             // set play/pause button to pause image
             
             self.playPauseButton.image = UIImage(named: "Pause")
+            
+            self.scheduleButton.image = UIImage(named:"White schedule")
             
             let imageView:UIImageView? = backgroundImageView as UIImageView?
             
@@ -178,6 +184,11 @@ class DetailViewController: UIViewController {
             self.playPauseButton.image = UIImage(named: "Pause")
         }
         
+    }
+    
+    func scheduleTapped(recognizer:UIGestureRecognizer) {
+        print("schedule tapped")
+        self.performSegueWithIdentifier("toSchedule", sender: self)
     }
     
 

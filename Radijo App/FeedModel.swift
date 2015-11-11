@@ -65,8 +65,6 @@ class FeedModel: NSObject {
     
     func getLocalJsonFile() -> [NSDictionary] {
         
-        
-        
             // Path exists
             let urlPath:NSURL? = NSURL(string: "http://demo2827744.mockable.io/markreiff")
             

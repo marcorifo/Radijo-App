@@ -215,14 +215,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     
-    // Reload Data code
-    
-    func refresh(refreshControl: UIRefreshControl) {
-        feedModel.getRadioStations() { articles in
-            self.tableView.reloadData()
-        }
-        refreshControl.endRefreshing()
-    }
+//    // Reload Data code
+//    
+//    func refresh(refreshControl: UIRefreshControl) {
+//        feedModel.getRadioStations() { articles in
+//            self.tableView.reloadData()
+//        }
+//        refreshControl.endRefreshing()
+//    }
     
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender:AnyObject?) {

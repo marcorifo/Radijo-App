@@ -1,1 +1,0 @@
-EZAUDIO_OTHER_LDFLAGS = -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "GLKit"

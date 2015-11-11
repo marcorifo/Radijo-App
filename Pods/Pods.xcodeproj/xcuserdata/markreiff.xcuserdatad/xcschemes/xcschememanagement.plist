@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EZAudio.xcscheme</key>
+		<key>Pods-Radijo App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Radijo App.xcscheme</key>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>441AA8562BB13A3DEB4E24079FEE3691</key>
+		<key>2C15C21172EE2E1A409E0F314B74CF63</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7E88391937B58DFBA060651C713520FF</key>
+		<key>30EA49436FB7954868C48153983C887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6A3179F1E889479767CAC7BA9112C50</key>
+		<key>C9D595655507FF502A4481BCBDE7A418</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D23EAEE707E91E32CB03A05D3ABC515E</key>
+		<key>DF2FD8FFB78C7F2101D7F27DC47BF6DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

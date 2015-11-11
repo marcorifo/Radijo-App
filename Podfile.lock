@@ -1,13 +1,22 @@
 PODS:
-  - EZAudio/Core (1.1.2)
+  - SwiftyJSON (2.3.1)
   - TNImageSliderViewController (0.1.0)
 
 DEPENDENCIES:
-  - EZAudio/Core (~> 1.1.2)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
   - TNImageSliderViewController
 
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: ece271ab33839d11c2153d71fb59c53545132cf9
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
 SPEC CHECKSUMS:
-  EZAudio: 01373de2b1257b77be1bf13753fb1c4ea8a9777e
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
   TNImageSliderViewController: d09b55dab126ce24d183d874018f8542efd137e0
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

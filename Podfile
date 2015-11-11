@@ -3,7 +3,7 @@ use_frameworks!
 
 target 'Radijo App' do
 
-pod 'EZAudio/Core', '~> 1.1.2'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 pod "TNImageSliderViewController"
 
 end
@@ -11,4 +11,3 @@ end
 target 'Radijo AppTests' do
 
 end
-
