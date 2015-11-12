@@ -109,13 +109,13 @@
 				7BA2BFD31BF251390061E95C /* ScheduleViewController.swift */,
 				7B606B1D1BBD7D7B0056153C /* FeedModel.swift */,
 				7B606AFF1BBD777E0056153C /* Main.storyboard */,
-				7B606B021BBD777E0056153C /* Images.xcassets */,
-				7B606B041BBD777E0056153C /* LaunchScreen.xib */,
-				7B606AF91BBD777E0056153C /* Supporting Files */,
 				7B606B211BBD7DBD0056153C /* Article.swift */,
 				7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */,
 				7BA2BFD51BF283770061E95C /* Event.swift */,
 				7BA2BFD71BF283D20061E95C /* EventFeedModel.swift */,
+				7B606B021BBD777E0056153C /* Images.xcassets */,
+				7B606B041BBD777E0056153C /* LaunchScreen.xib */,
+				7B606AF91BBD777E0056153C /* Supporting Files */,
 			);
 			path = "Radijo App";
 			sourceTree = "<group>";

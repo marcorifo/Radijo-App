@@ -63,22 +63,58 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(scheduleTableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let currentEventToDisplay:Event = self.radioEvents[indexPath.row]
+        var cellChooser:UITableViewCell
         
         // Try to get a cell to reuse
         
-        let cell:UITableViewCell = scheduleTableView.dequeueReusableCellWithIdentifier("eventTableCell") as UITableViewCell!
-        
-        let timeLabel:UILabel? = cell.viewWithTag(2) as! UILabel?
-        let descriptionLabel:UILabel? = cell.viewWithTag(3) as! UILabel?
-        
-        if let actualTimeLabel = timeLabel {
+        if (currentEventToDisplay.firstEventOfDay == true) {
             
-            if currentEventToDisplay.startTime != "" {
+            let cell:UITableViewCell = scheduleTableView.dequeueReusableCellWithIdentifier("dateTableCell") as UITableViewCell!
+            let dateLabel:UILabel? = cell.viewWithTag(4) as! UILabel?
+            
+            if let actualDateLabel = dateLabel {
                 
-                actualTimeLabel.text = currentEventToDisplay.startTime
+                let dateFormatter = NSDateFormatter()
+                dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
+                dateFormatter.dateFormat = "d MMMM "
+                let currentDay = dateFormatter.stringFromDate(currentEventToDisplay.startDate)
+                
+                
+                actualDateLabel.text = currentDay
                 
             }
+            
+            cellChooser = cell
         }
+        
+        else {
+        
+            let cell:UITableViewCell = scheduleTableView.dequeueReusableCellWithIdentifier("eventTableCell") as UITableViewCell!
+            
+            let timeLabel:UILabel? = cell.viewWithTag(2) as! UILabel?
+            let descriptionLabel:UILabel? = cell.viewWithTag(3) as! UILabel?
+            
+            
+        if let actualTimeLabel = timeLabel {
+            
+            if let startDate:NSDate = currentEventToDisplay.startDate {
+                
+                if currentEventToDisplay.nowPlaying == false {
+                
+                let dateFormatter = NSDateFormatter()
+                dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
+                dateFormatter.dateFormat = "HH:mm"
+                let startTime = dateFormatter.stringFromDate(startDate)
+                
+                actualTimeLabel.text = startTime
+                }
+                else {
+                    actualTimeLabel.text = "Now Playing"
+                }
+            }
+            }
+        
+        
         
         if let actualDescriptionLabel = descriptionLabel {
             
@@ -86,73 +122,20 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
                 
                 actualDescriptionLabel.text = currentEventToDisplay.eventName
             }
+            }
+        
+        cell.selectionStyle = UITableViewCellSelectionStyle.Blue
+    
+            
+        cellChooser = cell
         }
-        
-        
+    
+        return cellChooser
             
-        
-        
-//        // Grab the elements using the tag
-//        
-//        let imageView:UIImageView? = cell.viewWithTag(2) as! UIImageView?
-//        
-//        
-//        
-//        
-////         Set cell properties
-////        
-////        if let actualImageView = imageView {
-////            
-////            // Imageview actually exists
-////            
-////            if currentEventToDisplay.logoURL != "" {
-////                
-////                let imageURL = currentEventToDisplay.logoURL as NSString
-////                
-////                if imageURL.containsString("http") {
-////                    // station image loaded
-////                    
-////                    if let hoi = NSURL(string: currentEventToDisplay.logoURL) { downloadTask = imageView!.loadImageWithURL(hoi) {_ in}
-////                    }
-////                }
-////                    
-////                else if imageURL != "" {
-////                    actualImageView.image = UIImage(named: imageURL as String)
-////                    
-////                } else {
-////                    actualImageView.image = UIImage(named: "stationImage")
-////                }
-////        
-////                
-////                /*let url:NSURL? = NSURL(string: currentArticleToDisplay.logoURL)
-////                let imageRequest = NSURLRequest(URL: url!)
-////                
-////                 Fire off request to download it
-////                
-////                 NSURLConnection.sendAsynchronousRequest(imageRequest, queue: NSOperationQueue.mainQueue(), completionHandler:  {(response, data, error) in
-////                
-////                 actualImageView.image? = UIImage(data: data!)!}
-////                
-////                let session = NSURLSession.sharedSession()
-////                
-////                let dataTask1 = session.dataTaskWithRequest(imageRequest) { (data:NSData?, response:NSURLResponse?, error:NSError?) in
-////                
-////                actualImageView.image = UIImage(data:data!)
-////                
-////                
-////                
-////                
-////                }
-////                
-////                */
-////            }
-        
-//            cell.textLabel!.text = currentEventToDisplay.eventName
-            cell.selectionStyle = UITableViewCellSelectionStyle.Blue
-            
-            // Return the cell
-            return cell
     }
+    
+        
+        
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         

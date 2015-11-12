@@ -10,9 +10,16 @@ import UIKit
 
 class Event: NSObject {
         
-        var eventName:String = ""
-        var startTime:String = ""
-        
+    var eventName:String = ""
+    var startTime:String = ""
+    var endTime:String = ""
+    var startDate:NSDate = NSDate()
+    var endDate:NSDate = NSDate()
+    var nowPlaying:Bool = false
+    var firstEventOfDay:Bool = false
+    var showEvent:Bool = false
+    var daysFromNow:Int = 0
+    
     }
 
 

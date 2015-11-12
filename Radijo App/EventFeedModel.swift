@@ -11,7 +11,9 @@ import UIKit
 class EventFeedModel: NSObject {
     
     var radioEvents:[Event] = [Event]()
-    
+    let date = NSDate()
+    var day:Int = 0
+
     
     func getDictionary () -> [NSDictionary] {
         
@@ -73,13 +75,57 @@ class EventFeedModel: NSObject {
             let status:String = jsonDictionary["status"] as! String
             
             if status == "confirmed" {
-            
+                
             a.eventName = jsonDictionary["summary"] as! String
             let hoi:NSDictionary = jsonDictionary["start"] as! NSDictionary
             let startString:String = hoi["dateTime"] as! String
             a.startTime = startString
-            radioEvents.append(a)
+            let inEnd:NSDictionary = jsonDictionary["end"] as! NSDictionary
+            let endString:String = inEnd["dateTime"] as! String
+            a.endTime = endString
                 
+                let dateFormatter1 = NSDateFormatter()
+                dateFormatter1.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZ"
+                let endDate = dateFormatter1.dateFromString(endString)
+                a.endDate = endDate!
+                
+                let dateFormatter = NSDateFormatter()
+                dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZ"
+                let startDate = dateFormatter.dateFromString(startString)
+                a.startDate = startDate!
+                
+                
+                if endDate!.compare(date) == NSComparisonResult.OrderedDescending {
+                
+                if (startDate!.compare(date) == NSComparisonResult.OrderedAscending && endDate!.compare(date) == NSComparisonResult.OrderedDescending) {
+                    
+                    a.nowPlaying = true
+                    
+                }
+                
+                let calendar = NSCalendar.currentCalendar()
+                
+                let beginningOfDay = calendar.startOfDayForDate(date)
+                
+                let components = calendar.components([.Day], fromDate: beginningOfDay, toDate: startDate!, options: [])
+                
+                a.daysFromNow = components.day
+                
+                if (a.daysFromNow >= day) {
+                    
+                    day = a.daysFromNow + 1
+                    a.firstEventOfDay = true
+                    index--
+                    
+                    }
+                
+                    print(a.firstEventOfDay)
+                    radioEvents.append(a)
+                    
+                }
+                else{}
+            
+            
             }
             
             else {}
@@ -93,28 +139,38 @@ class EventFeedModel: NSObject {
         
     }
     
+    // dateformatter from string
+    
+    
+    
+    
+    
     // create google Api Url
     
     func createCalendarURL() -> String {
-        let date = NSDate()
-        let dateFormatter = NSDateFormatter()
+                let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "YYYY-MM-dd"
-        let dateString = dateFormatter.stringFromDate(date)
-        let date1 = NSDate()
-        print(dateString)
+        let interval = NSTimeInterval(60 * 60 * 24 * 40)
+        let tenDaysFromNow = date.dateByAddingTimeInterval(interval)
+        print(tenDaysFromNow)
+        let interval2 = NSTimeInterval(60 * 60 * 24 * -1)
+        let oneDayAgo = date.dateByAddingTimeInterval(interval2)
+        let dateString = dateFormatter.stringFromDate(oneDayAgo)
+        let dateStringEnd = dateFormatter.stringFromDate(tenDaysFromNow)
         
         let dateFormatter1 = NSDateFormatter()
         dateFormatter1.dateFormat = "HH:mm:ss"
-        let timeString = dateFormatter1.stringFromDate(date1)
+        let timeString = dateFormatter1.stringFromDate(oneDayAgo)
         print(timeString)
+        let timeStringEnd = dateFormatter1.stringFromDate(tenDaysFromNow)
         
         let currentTime:String = dateString + "T" + timeString + "Z"
         print (currentTime)
         
+        let endDate:String = dateStringEnd + "T" + timeStringEnd + "Z"
+        print (currentTime)
+        
         let googleAccount:String = "25udqg22v3qjuogv4tqm352v80@group.calendar.google.com"
-        
-        
-        let endDate = "2015-12-01T10:00:00Z"
         
         let googleUrl:String = "https://www.googleapis.com/calendar/v3/calendars/" + googleAccount + "/events?timeMin=" + currentTime + "&timeMax=" + endDate + "&orderBy=startTime&singleEvents=True&key=AIzaSyD3dKnUmkc0fFlTUAIbUpsQlJ9-R4mXUdM"
         
@@ -162,7 +218,7 @@ class EventFeedModel: NSObject {
             }
         }
         return NSDictionary()
-}
+    }
 }
 
     

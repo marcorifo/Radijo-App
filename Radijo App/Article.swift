@@ -14,5 +14,6 @@ class Article: NSObject {
     var logoURL:String = ""
     var radioFeed:String = ""
     var backgroundURL:String = ""
+    var googleAccount:String = ""
    
 }
