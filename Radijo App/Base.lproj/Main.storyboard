@@ -31,7 +31,7 @@
                                         <animations/>
                                         <color key="backgroundColor" white="0.0" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
                                     </imageView>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5A9AF637-760E-493B-A96B-867DBBE9900F" translatesAutoresizingMaskIntoConstraints="NO" id="4tx-0u-r3S">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CC7152C7-2E15-41BE-B7DE-5B026F5F51A5" translatesAutoresizingMaskIntoConstraints="NO" id="4tx-0u-r3S">
                                         <rect key="frame" x="268" y="496" width="64" height="64"/>
                                         <animations/>
                                         <constraints>
@@ -282,7 +282,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="5A9AF637-760E-493B-A96B-867DBBE9900F" width="64" height="64">
+        <image name="CC7152C7-2E15-41BE-B7DE-5B026F5F51A5" width="64" height="64">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

@@ -13,6 +13,7 @@ class EventFeedModel: NSObject {
     var radioEvents:[Event] = [Event]()
     let date = NSDate()
     var day:Int = 0
+    var googleAccount1:String = ""
 
     
     func getDictionary () -> [NSDictionary] {
@@ -142,15 +143,21 @@ class EventFeedModel: NSObject {
     // dateformatter from string
     
     
-    
+    func getRadioStation (currentRadioStation:Article) -> String {
+        
+        googleAccount1 = currentRadioStation.googleAccount
+        
+        return googleAccount1
+        
+    }
     
     
     // create google Api Url
     
-    func createCalendarURL() -> String {
+    func createCalendarURL () -> String {
                 let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "YYYY-MM-dd"
-        let interval = NSTimeInterval(60 * 60 * 24 * 40)
+        let interval = NSTimeInterval(60 * 60 * 24 * 10)
         let tenDaysFromNow = date.dateByAddingTimeInterval(interval)
         print(tenDaysFromNow)
         let interval2 = NSTimeInterval(60 * 60 * 24 * -1)
@@ -170,7 +177,7 @@ class EventFeedModel: NSObject {
         let endDate:String = dateStringEnd + "T" + timeStringEnd + "Z"
         print (currentTime)
         
-        let googleAccount:String = "25udqg22v3qjuogv4tqm352v80@group.calendar.google.com"
+        let googleAccount:String = googleAccount1
         
         let googleUrl:String = "https://www.googleapis.com/calendar/v3/calendars/" + googleAccount + "/events?timeMin=" + currentTime + "&timeMax=" + endDate + "&orderBy=startTime&singleEvents=True&key=AIzaSyD3dKnUmkc0fFlTUAIbUpsQlJ9-R4mXUdM"
         

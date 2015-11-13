@@ -186,9 +186,21 @@ class DetailViewController: UIViewController {
         
     }
     
+    
+
+    
     func scheduleTapped(recognizer:UIGestureRecognizer) {
         print("schedule tapped")
         self.performSegueWithIdentifier("toSchedule", sender: self)
+        
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let detailVC = segue.destinationViewController as! ScheduleViewController
+        
+        detailVC.radioStationToDisplay = self.radioStationToDisplay
+        
+        // Pass the selected object to the new view controller.
     }
     
 

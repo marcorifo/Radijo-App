@@ -47,6 +47,8 @@ class FeedModel: NSObject {
             q.logoURL = jsonDictionary["logoURL"] as! String
             q.radioFeed = jsonDictionary["radioFeedURL"] as! String
             q.backgroundURL = jsonDictionary["backgroundURL"] as! String
+            q.googleAccount = jsonDictionary["googleAcount"] as! String
+            
             
             // Add the data to the radioStations array
             

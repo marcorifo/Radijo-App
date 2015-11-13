@@ -14,17 +14,19 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     
     @IBOutlet weak var scheduleTableView: UITableView!
     
+    var radioStationToDisplay:Article?
     let feedModel:EventFeedModel = EventFeedModel()
     var radioEvents:[Event] = [Event]()
     
     var selectedEvent:Event?
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         scheduleTableView.delegate = self
         scheduleTableView.dataSource = self
+        
+        feedModel.getRadioStation(radioStationToDisplay!)
         
         feedModel.getEvents() {
             
@@ -39,6 +41,7 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
 
@@ -74,6 +77,14 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
             
             if let actualDateLabel = dateLabel {
                 
+                if currentEventToDisplay.daysFromNow == 0 {
+                    
+                    actualDateLabel.text = "Today"
+                    
+                }
+                
+                else {
+                
                 let dateFormatter = NSDateFormatter()
                 dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
                 dateFormatter.dateFormat = "d MMMM "
@@ -81,6 +92,8 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
                 
                 
                 actualDateLabel.text = currentDay
+                
+                }
                 
             }
             

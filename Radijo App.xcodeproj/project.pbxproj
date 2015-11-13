@@ -21,6 +21,7 @@
 		7BA2BFD41BF251390061E95C /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2BFD31BF251390061E95C /* ScheduleViewController.swift */; };
 		7BA2BFD61BF283770061E95C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2BFD51BF283770061E95C /* Event.swift */; };
 		7BA2BFD81BF283D20061E95C /* EventFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2BFD71BF283D20061E95C /* EventFeedModel.swift */; };
+		7BA2BFDA1BF4E4140061E95C /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA2BFD91BF4E4140061E95C /* RadioPlayer.swift */; };
 		7BAAE7721BD7EDFF005B580C /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */; };
 		BF3EC4CE3E92DCE4FA6E6BC7 /* Pods_Radijo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB4465E87F88860A3CF1A79 /* Pods_Radijo_App.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		7BA2BFD31BF251390061E95C /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		7BA2BFD51BF283770061E95C /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		7BA2BFD71BF283D20061E95C /* EventFeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventFeedModel.swift; sourceTree = "<group>"; };
+		7BA2BFD91BF4E4140061E95C /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
 		7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
 		AFB4465E87F88860A3CF1A79 /* Pods_Radijo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radijo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,20 +104,19 @@
 		7B606AF81BBD777E0056153C /* Radijo App */ = {
 			isa = PBXGroup;
 			children = (
-				7B606B1F1BBD7D900056153C /* FeedHelper.swift */,
+				7B606AFF1BBD777E0056153C /* Main.storyboard */,
 				7B606AFB1BBD777E0056153C /* AppDelegate.swift */,
 				7B606AFD1BBD777E0056153C /* ViewController.swift */,
 				7B606B1B1BBD79640056153C /* DetailViewController.swift */,
 				7BA2BFD31BF251390061E95C /* ScheduleViewController.swift */,
 				7B606B1D1BBD7D7B0056153C /* FeedModel.swift */,
-				7B606AFF1BBD777E0056153C /* Main.storyboard */,
-				7B606B211BBD7DBD0056153C /* Article.swift */,
-				7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */,
-				7BA2BFD51BF283770061E95C /* Event.swift */,
 				7BA2BFD71BF283D20061E95C /* EventFeedModel.swift */,
-				7B606B021BBD777E0056153C /* Images.xcassets */,
-				7B606B041BBD777E0056153C /* LaunchScreen.xib */,
+				7B606B211BBD7DBD0056153C /* Article.swift */,
+				7BA2BFD51BF283770061E95C /* Event.swift */,
+				7BAAE7711BD7EDFF005B580C /* InfoDetailViewController.swift */,
+				7B606B1F1BBD7D900056153C /* FeedHelper.swift */,
 				7B606AF91BBD777E0056153C /* Supporting Files */,
+				7BA2BFD91BF4E4140061E95C /* RadioPlayer.swift */,
 			);
 			path = "Radijo App";
 			sourceTree = "<group>";
@@ -123,6 +124,8 @@
 		7B606AF91BBD777E0056153C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B606B021BBD777E0056153C /* Images.xcassets */,
+				7B606B041BBD777E0056153C /* LaunchScreen.xib */,
 				7B2266391BEFD73B00E70564 /* Startscreen.png */,
 				7B606AFA1BBD777E0056153C /* Info.plist */,
 			);
@@ -327,6 +330,7 @@
 				7B606B221BBD7DBD0056153C /* Article.swift in Sources */,
 				7BA2BFD41BF251390061E95C /* ScheduleViewController.swift in Sources */,
 				7B606B201BBD7D900056153C /* FeedHelper.swift in Sources */,
+				7BA2BFDA1BF4E4140061E95C /* RadioPlayer.swift in Sources */,
 				7BA2BFD81BF283D20061E95C /* EventFeedModel.swift in Sources */,
 				7B606AFC1BBD777E0056153C /* AppDelegate.swift in Sources */,
 				7BAAE7721BD7EDFF005B580C /* InfoDetailViewController.swift in Sources */,
